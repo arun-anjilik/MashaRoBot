@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 `Hi..Welcome` 👀
-`I'm` [Roo](https://telegra.ph/file/5a74133b1ebba9986fba1.jpg)
+`I'm` [•┈•✿ 🎀 ΛＬΞＸＩΛ 🎀 ✿•┈•](https://telegra.ph/file/5a74133b1ebba9986fba1.jpg)
 `I'm here to help you manage your groups.. Click 📚 COMMANDS button to find out more about how to use me.` 
 """
 
@@ -92,13 +92,13 @@ buttons = [
         InlineKeyboardButton(
             text="💾 SOURCE", callback_data="source_"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/joinchat/JtIgvUuhHJlep1zpSSZwzA"
+            text="👥 SUPPORT", url="https://t.me/joinchat/spookyvilla"
         ),
     ],
 ]
 
 HELP_STRINGS = """
-`Hi.. I'm` [Roo](https://telegra.ph/file/5a74133b1ebba9986fba1.jpg)
+`Hi.. I'm` [•┈•✿ 🎀 ΛＬΞＸＩΛ 🎀 ✿•┈•](https://telegra.ph/file/5a74133b1ebba9986fba1.jpg)
 `Click on the buttons below to get documentation about specific modules.`"""
 
 
