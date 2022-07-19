@@ -74,7 +74,7 @@ def song(client, message):
     except Exception as e:
         print(e)
 
-@pbot.on_message(filters.text(['play']))
+@pbot.on_message(filters.regex("play"))
 def song(client, message):
 
     user_id = message.from_user.id 
