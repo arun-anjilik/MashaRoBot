@@ -82,7 +82,7 @@ def song(client, message):
     rpk = "["+user_name+"](tg://user?id="+str(user_id)+")"
 
     query = ''
-    for i in message.command[1:]:
+    for i in message.regex[1:]:
         query += ' ' + str(i)
     print(query)
     m = message.reply('🔎 Finding the song...')
